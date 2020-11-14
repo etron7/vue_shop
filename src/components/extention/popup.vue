@@ -94,4 +94,4 @@ export default {
     cursor: pointer;
     font-size: 2rem
 }
-</style>
+</style> 
