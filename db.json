@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "image": "product.jpg",
+      "title": "Товар 1",
+      "price": "100",
+      "sku": "A1",
+      "available": true,
+      "category": "Q1",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede."
+    },
+    {
+      "image": "product.jpg",
+      "title": "Товар 2",
+      "price": "200",
+      "sku": "A2",
+      "available": true,
+      "category": "Q1",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede."
+    },
+    {
+      "image": "product.jpg",
+      "title": "Товар 3",
+      "price": "300",
+      "sku": "A3",
+      "available": true,
+      "category": "Q1",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede."
+    },
+    {
+      "image": "product.jpg",
+      "title": "Товар 4",
+      "price": "400",
+      "sku": "A4",
+      "available": true,
+      "category": "Q1",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede."
+    },
+    {
+      "image": "product.jpg",
+      "title": "Товар 5",
+      "price": "500",
+      "sku": "A5",
+      "available": true,
+      "category": "Q2",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede."
+    },
+    {
+      "image": "product.jpg",
+      "title": "Товар 6",
+      "price": "600",
+      "sku": "A6",
+      "available": true,
+      "category": "Q2",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede."
+    },
+    {
+      "image": "product.jpg",
+      "title": "Товар 7",
+      "price": "700",
+      "sku": "A7",
+      "available": true,
+      "category": "Q2",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede."
+    },
+    {
+      "image": "product.jpg",
+      "title": "Товар 8",
+      "price": "800",
+      "sku": "A8",
+      "available": true,
+      "category": "Q2",
+      "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede."
+    }
+  ]
+}

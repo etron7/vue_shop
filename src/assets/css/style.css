@@ -1,0 +1,49 @@
+* {margin: 0; padding: 0;}
+
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 13px;
+}
+a:link {
+    text-decoration: none;
+  }
+h2,h3 {
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+.container{
+    width: 100%;
+}
+/* v-btn */
+.theme--light.v-btn:not(.v-btn--flat):not(.v-btn--text):not(.v-btn--outlined) {
+    background-color: teal;
+    text-transform: capitalize;
+    font-weight: 300;
+    margin: 3px;
+    color: white;
+    border-radius: 4px;
+}
+.border-white {
+    border: 1px solid white;
+}
+.v-block {
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+}
+/* Wrapper empty */
+.wrapper-empty {margin:2rem;}
+
+/* Pagination */
+.theme--light.v-pagination .v-pagination__item:hover {
+    background: teal;
+    color: white;
+}
+.theme--light.v-pagination .v-pagination__item--active {
+    background: teal;
+}
+/*  < arrow > */
+.theme--light.v-pagination button.v-pagination__navigation:hover {
+    background: teal;
+    color: white;
+}
+/* Search */
+.search-btn {float: right;}
