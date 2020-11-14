@@ -102,4 +102,4 @@ export default {
 .cart-text{
   text-align: center;
 }
-</style>
+</style> 
