@@ -22,4 +22,4 @@ let router = new Router({
     ]
 })
 
-export default router
+export default router 
