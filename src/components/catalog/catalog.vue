@@ -1,5 +1,5 @@
 <template>
-<!-- Catalog -->
+<!-- Catalog --> 
   <div class="catalog">
       <router-link :to="{name: 'cart', params: {cart_data: CART}}">
           <div class="link-cart">
