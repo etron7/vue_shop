@@ -1,5 +1,5 @@
 <template>
-<!-- Карточка товара в корзине-->
+<!-- card item in Cart-->
   <div class="cart-item v-block">
         <h2 class="product-title">{{cart_item_data.title}}</h2>
         <img class="product-img" :src=" require('../../assets/images/' + cart_item_data.image) ">
@@ -27,20 +27,15 @@ export default {
       }
     }
   },
-  // Price float fix
-  filters: {
-        // priceFix
-    },
-  computed: {},
   methods: {
-    // Кол-во - 1 +
+    // Quantity - 1 +
     minusItem() {
       this.$emit('minus')
     },
     plusItem() {
       this.$emit('plus')
     },
-    // Удалить из корзины
+    // Delete item from cart
     deleteFromCart() {
       this.$emit('deleteFromCart')
     }
@@ -66,6 +61,7 @@ export default {
     width: 300px;
     display: block;
     line-height: 2rem;
+    text-align: center;
   }
 }
 .btn-quant{
