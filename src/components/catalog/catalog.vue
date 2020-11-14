@@ -41,11 +41,11 @@
             <!-- Range-slider filter by price -->
             <div class="range-slider">
                 <p class="range-title">Фильтр по цене: {{minPrice}} - {{maxPrice}}</p>
-                <input type="range" min="0" max="10000" step="10" 
+                <input type="range" min="0" max="1000" step="10" 
                     v-model.number="minPrice"
                     @change="setRangeSlider"
                 >
-                <input type="range" min="0" max="10000" step="10" 
+                <input type="range" min="0" max="1000" step="10" 
                     v-model.number="maxPrice"
                     @change="setRangeSlider"
                 >
@@ -93,7 +93,7 @@ export default {
             search: '',
             // Filter price
             minPrice: 0,
-            maxPrice: 10000,
+            maxPrice: 1000,
             }
     },
     computed:{
