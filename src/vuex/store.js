@@ -61,7 +61,7 @@ let store = new Vuex.Store( {
                 return error;
             })
         },
-        // Add to Cart
+        // Add to Cart, delete, inc/dec item
         ADD_TO_CART({commit}, product) {
             commit('SET_CART', product);
         },
