@@ -1,4 +1,4 @@
-<template>
+<template> 
   <div class="catalog-item v-block">
       <!-- Card in modal-->
       <Popup
